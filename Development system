@@ -799,17 +799,14 @@
     </div>
 </div>
 
+
+
+
+
+
 <script>
 // --- HELPER FUNCTION: GENERATE TRANSACTION ID ---
 function genTxnId(prefix) { return prefix + Math.floor(100000 + Math.random() * 900000); }
-
-
-
-
-
-
-
-
 
 // --- HELPER FUNCTION: NORMALIZE PHONE NUMBER FOR DB CHECK ---
 function normalizePhoneForCheck(p) {
